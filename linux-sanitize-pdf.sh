@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Authored by Diver Drew and QuickRecon of r/scuba
+# Authored by C.D. and QuickRecon of r/scuba
 # Based off of Windows Sanitize-PDF.bat by Kerbalnut
 # at https://github.com/Kerbalnut/Sanitize-PDF
 
@@ -49,7 +49,7 @@ outputPDF=${inputLowercase/.pdf/-flattened.pdf}
 gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=$outputPDF $inputPDF
 
 echo " ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
-echo "Okay! Looks like we're done. Check the output"
+echo "Okay, looks like we're done. Check the output"
 echo "for Chapters and OCR/text-preservation."
 echo "Output file will be named:"
 echo "$outputPDF"
